@@ -1,26 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66231eaf-3206-420a-b3d6-a3b766e1211e" name="Changes" comment="" />
+    <list default="true" id="66231eaf-3206-420a-b3d6-a3b766e1211e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ojbackend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/OjbackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/common/StatusConstans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/common/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/common/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/config/FilesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/config/corsfilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/ProblemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/StatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/dto/ProblemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/controller/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/submit/SourceCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/entity/submit/SubmitResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/exception/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/judger/complier/CPlusCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/judger/complier/JavaCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/mapper/FilesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/mapper/ProblemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/mapper/StatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/FilesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/ProblemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/StatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/impl/FilesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/impl/ProblemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/impl/StatusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/utils/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/java/com/example/ojbackend/utils/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/main/resources/static/judge_test/temp_execute_files/1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ojbackend/src/test/java/com/example/ojbackend/OjbackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/c1116342d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/iconfont/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/ECharts/BarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/ECharts/PieChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/NaviBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/Pagination.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/UserPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/components/solveBox.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/plugins/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/styles/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/HomePage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/NotFound.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/Problem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/Problems.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/Rank.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/Status.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/announcements.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/testapi.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/user/Setting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/src/views/user/UserPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ojfrontend/static/.gitkeep" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2VtGPZlNL6WA6asSbV0Jx01clWM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/22845/IdeaProjects/NOJ/ojbackend/src/main/java/com/example/ojbackend/common&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4a101c216dad0b5929c67806eef5d472&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.5\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\22845\IdeaProjects\NOJ\ojbackend\src\main\java\com\example\ojbackend\common" />
+      <recent name="C:\Users\22845\IdeaProjects\NOJ\ojbackend\src\main\java\com\example\ojbackend\config" />
+      <recent name="C:\Users\22845\IdeaProjects\NOJ\ojbackend\src\main\java\com\example\ojbackend\controller" />
+      <recent name="C:\Users\22845\IdeaProjects\NOJ\ojbackend\src\main\java\com\example\ojbackend\enity" />
+      <recent name="C:\Users\22845\IdeaProjects\NOJ\ojbackend\src\main\java\com\example\ojbackend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="OjbackendApplicationTests.testCompiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ojbackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ojbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ojbackend" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ojbackend.OjbackendApplicationTests" />
+      <option name="METHOD_NAME" value="testCompiler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <configuration name="OjbackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ojbackend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ojbackend.OjbackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ojfrontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="JUnit.OjbackendApplicationTests.testCompiler" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Spring Boot.OjbackendApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.OjbackendApplicationTests.testCompiler" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,8 +256,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695647941154</updated>
+      <workItem from="1695647942697" duration="1105000" />
+      <workItem from="1695649368637" duration="143000" />
+      <workItem from="1695699917790" duration="1437000" />
+      <workItem from="1695706629327" duration="1500000" />
+      <workItem from="1695708445757" duration="1603000" />
+      <workItem from="1695725912625" duration="4620000" />
+      <workItem from="1695747975135" duration="17000" />
+      <workItem from="1695825656095" duration="157000" />
+      <workItem from="1695825889856" duration="78000" />
+      <workItem from="1695828302177" duration="12000" />
+      <workItem from="1695828593816" duration="3839000" />
+      <workItem from="1695894764846" duration="1378000" />
+      <workItem from="1695896157473" duration="7000" />
+      <workItem from="1695917548834" duration="755000" />
+      <workItem from="1695924262756" duration="3953000" />
+      <workItem from="1695967364478" duration="2981000" />
+      <workItem from="1695976705277" duration="2932000" />
+      <workItem from="1695991505896" duration="3660000" />
+      <workItem from="1695995526629" duration="19156000" />
+      <workItem from="1696041880664" duration="2378000" />
+      <workItem from="1696048649786" duration="5393000" />
+      <workItem from="1696056401134" duration="426000" />
+      <workItem from="1696057757136" duration="1459000" />
+      <workItem from="1696059689658" duration="15372000" />
+      <workItem from="1696085335350" duration="4755000" />
+      <workItem from="1696090163981" duration="2490000" />
+      <workItem from="1696092801150" duration="8127000" />
+      <workItem from="1696317530566" duration="293000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

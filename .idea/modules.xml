@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NOJ.iml" filepath="$PROJECT_DIR$/NOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ojbackend/ojbackend.iml" filepath="$PROJECT_DIR$/ojbackend/ojbackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ojfrontend.iml" filepath="$PROJECT_DIR$/ojfrontend.iml" />
     </modules>
   </component>
 </project>
