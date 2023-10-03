@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "587816",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "808580",
+      "name": "global",
+      "font_class": "global",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "980571",
+      "name": "ios-email-outline",
+      "font_class": "iosemailoutline",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "1020908",
+      "name": "email",
+      "font_class": "email1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1160913",
+      "name": "social-github-outline",
+      "font_class": "socialgithuboutline",
+      "unicode": "e8a1",
+      "unicode_decimal": 59553
+    },
+    {
+      "icon_id": "2685517",
+      "name": "PC-email",
+      "font_class": "PC-email",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "7138007",
+      "name": "ios-globe",
+      "font_class": "ios-globe",
+      "unicode": "e7e4",
+      "unicode_decimal": 59364
+    }
+  ]
+}
